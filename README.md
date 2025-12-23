@@ -6,4 +6,4 @@
 
 ## Live Demo
 
-🌐 [View Live Site](https://evija-berzina.github.io/frontendmentor-ocial-proof-section/)
+🌐 [View Live Site](https://evija-berzina.github.io/frontendmentor-social-proof-section/)
