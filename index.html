@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frontend Mentor | Social proof section</title>
+    <meta name="description" content="This social proof section page shows six people giving their comments and ratings.">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Frontend Mentor | Social proof section</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main class="container">
-      <div class="main-raiting-container">
+      <section class="main-raiting-container">
         <section class="main-container">
           <h1 class="title">10,000+ of our users love our products.</h1>
           <p class="main-paragraph">
@@ -27,56 +29,61 @@
         </section>
       
         <section class="raitings">
-          <div class="raiting-container">
-            <div class="stars">
-              <img src="images/icon-star.svg" alt="five stars rating">
-              <img src="images/icon-star.svg" alt="five stars rating">
-              <img src="images/icon-star.svg" alt="five stars rating">
-              <img src="images/icon-star.svg" alt="five stars rating">
-              <img src="images/icon-star.svg" alt="five stars rating">
-            </div>
-            <span class="review-text">
-              Rated 5 Stars in Reviews
-            </span>
-          </div>
-          <div class="raiting-container">
-            <div class="stars">
-              <img src="images/icon-star.svg" alt="five stars rating">
-              <img src="images/icon-star.svg" alt="five stars rating">
-              <img src="images/icon-star.svg" alt="five stars rating">
-              <img src="images/icon-star.svg" alt="five stars rating">
-              <img src="images/icon-star.svg" alt="five stars rating">
-            </div>
-            <span class="review-text">
-              Rated 5 Stars in Report Guru
-            </span>
-          </div>
-          <div class="raiting-container">
-            <div class="stars">
-              <img src="images/icon-star.svg" alt="five stars rating">
-              <img src="images/icon-star.svg" alt="five stars rating">
-              <img src="images/icon-star.svg" alt="five stars rating">
-              <img src="images/icon-star.svg" alt="five stars rating">
-              <img src="images/icon-star.svg" alt="five stars rating">
-            </div>
-            <span class="review-text">
-              Rated 5 Stars in BestTech
-            </span>
-          </div>
+          <ul class="raitings-list">
+            <li class="raiting-item">
+              <div class="stars" aria-hidden="true">
+                <img src="images/icon-star.svg" alt="five stars rating">
+                <img src="images/icon-star.svg" alt="five stars rating">
+                <img src="images/icon-star.svg" alt="five stars rating">
+                <img src="images/icon-star.svg" alt="five stars rating">
+                <img src="images/icon-star.svg" alt="five stars rating">
+              </div>
+              <span class="review-text">
+                Rated 5 Stars in Reviews
+              </span>
+            </li>
+          
+
+            <li class="raiting-item">
+              <div class="stars" aria-hidden="true">
+                <img src="images/icon-star.svg" alt="five stars rating">
+                <img src="images/icon-star.svg" alt="five stars rating">
+                <img src="images/icon-star.svg" alt="five stars rating">
+                <img src="images/icon-star.svg" alt="five stars rating">
+                <img src="images/icon-star.svg" alt="five stars rating">
+              </div>
+              <span class="review-text">
+                Rated 5 Stars in Report Guru
+              </span>
+            </li>
+
+            <li class="raiting-item">
+              <div class="stars" aria-hidden="true">
+                <img src="images/icon-star.svg" alt="five stars rating">
+                <img src="images/icon-star.svg" alt="five stars rating">
+                <img src="images/icon-star.svg" alt="five stars rating">
+                <img src="images/icon-star.svg" alt="five stars rating">
+                <img src="images/icon-star.svg" alt="five stars rating">
+              </div>
+              <span class="review-text">
+                Rated 5 Stars in BestTech
+              </span>
+            </li>
+          </ul>
         </section>
-      </div>
+      </section>
     
       <section class="comment-section">
         <article class="comment-container">
           <div class="profile">
             <img class="profile-picture" src="images/image-colton.jpg" alt="mens profile picture">
             <div class="profile-info">
-              <span class="name">
+              <h2 class="name">
                 Colton Smith
-              </span>
-              <span class="verified-buyer">
+              </h2>
+              <p class="verified-buyer">
                 Verified Buyer
-              </span>
+              </p>
             </div>
           </div>
           <p class="comment">
@@ -88,12 +95,12 @@
           <div class="profile">
             <img class="profile-picture" src="images/image-irene.jpg" alt="womans profile picture">
             <div class="profile-info">
-              <span class="name">
+              <h2 class="name">
                 Irene Roberts
-              </span>
-              <span class="verified-buyer">
+              </h2>
+              <p class="verified-buyer">
                 Verified Buyer
-              </span>
+              </p>
             </div>
           </div>
           <p class="comment">
@@ -106,12 +113,12 @@
           <div class="profile">
             <img class="profile-picture" src="images/image-anne.jpg" alt="womans profile picture">
             <div class="profile-info">
-              <span class="name">
+              <h2 class="name">
                 Anne Wallace
-              </span>
-              <span class="verified-buyer">
+              </h2>
+              <p class="verified-buyer">
                 Verified Buyer
-              </span>
+              </p>
             </div>
           </div>
           <p class="comment">
